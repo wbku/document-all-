@@ -1,0 +1,25 @@
+git init: tao repo trong may
+git clone,
+git pull: dong bo tu tren mang ve may
+git commit, git add va git add . :them file
+git push: dong bo tu may len mang
+git log, git status, decorate, graph, oneline
+
+git add index.html
+git commit -m "add index.html file"
+
+or create a new repository on the command line
+
+echo "# testing" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/alderson3060/testing.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/alderson3060/testing.git
+git branch -M main
+git push -u origin main
